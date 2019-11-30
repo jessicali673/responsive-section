@@ -39,3 +39,31 @@ section h2 {
 section p {
   margin: 0;
 }
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 1rem;
+  position: relative;
+  top: 0;
+}
+
+.img-flex {
+  display: flex;
+}
+
+.section-letter {
+  width: 50%;
+  order: 1;
+}
+
+.section-icon {
+  width: 50%;
+  order: 2;
+}
+
+.section-body {
+  width: 100%;
+  order: 3;
+}
