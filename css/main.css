@@ -41,29 +41,22 @@ section p {
 }
 
 .wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  padding: 1rem;
-  position: relative;
-  top: 0;
+  padding: 0 1rem;
 }
 
 .img-flex {
+  width: 100%;
   display: flex;
 }
 
 .section-letter {
   width: 50%;
-  order: 1;
 }
 
 .section-icon {
   width: 50%;
-  order: 2;
 }
 
 .section-body {
   width: 100%;
-  order: 3;
 }
