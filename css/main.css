@@ -92,3 +92,55 @@ section p {
   }
 
 }
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-icon {
+    order: 3;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .section-letter {
+    width: 33.33%;
+    padding: .5rem .7rem .4rem 1.5rem;
+  }
+
+  .section-icon {
+    width: 33.33%;
+    padding: .5rem 1.5rem .4rem .7rem;
+  }
+
+  .section-body {
+    padding: 0 1rem .5rem;
+    font-size: .85rem;
+  }
+
+)
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+}
